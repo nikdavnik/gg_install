@@ -13,78 +13,78 @@ For Ubuntu 14
 
     Add the Gluu repo:
 
-# echo "deb https://repo.gluu.org/ubuntu/ trusty-devel main" > /etc/apt/sources.list.d/gluu-repo.list
-# curl https://repo.gluu.org/ubuntu/gluu-apt.key | apt-key add -
+echo "deb https://repo.gluu.org/ubuntu/ trusty-devel main" > /etc/apt/sources.list.d/gluu-repo.list
+curl https://repo.gluu.org/ubuntu/gluu-apt.key | apt-key add -
 
     Add the Postgresql-10 repo:
-
-# echo "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main" > /etc/apt/sources.list.d/psql.list
-# wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+    
+echo "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main" > /etc/apt/sources.list.d/psql.list
+get --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 
     Add the Node repo:
 
-# curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 For Ubuntu 16
 
     Add the Gluu repo:
 
-# echo "deb https://repo.gluu.org/ubuntu/ xenial-devel main" > /etc/apt/sources.list.d/gluu-repo.list
-# curl https://repo.gluu.org/ubuntu/gluu-apt.key | apt-key add -
+echo "deb https://repo.gluu.org/ubuntu/ xenial-devel main" > /etc/apt/sources.list.d/gluu-repo.list
+curl https://repo.gluu.org/ubuntu/gluu-apt.key | apt-key add -
 
     Add the Postgresql-10 repo:
 
-# echo "deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main" > /etc/apt/sources.list.d/psql.list
-# wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+echo "deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main" > /etc/apt/sources.list.d/psql.list
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 
     Add the Node repo:
 
-# curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 
 For Debian 8
 
     Add the Gluu repo:
 
-# echo "deb https://repo.gluu.org/debian/ testing main" > /etc/apt/sources.list.d/gluu-repo.list
-# curl https://repo.gluu.org/debian/gluu-apt.key | apt-key add -
+echo "deb https://repo.gluu.org/debian/ testing main" > /etc/apt/sources.list.d/gluu-repo.list
+curl https://repo.gluu.org/debian/gluu-apt.key | apt-key add -
 
     Add the Postgresql-10 repo:
 
-# echo "deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main" > /etc/apt/sources.list.d/psql.list
-# wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+echo "deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main" > /etc/apt/sources.list.d/psql.list
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 
     Add the Node repo:
 
-# curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 For Debian 9
 
     Add the Gluu repo:
 
-# echo "deb https://repo.gluu.org/debian/ stretch-testing main" > /etc/apt/sources.list.d/gluu-repo.list
-# curl https://repo.gluu.org/debian/gluu-apt.key | apt-key add -
+echo "deb https://repo.gluu.org/debian/ stretch-testing main" > /etc/apt/sources.list.d/gluu-repo.list
+curl https://repo.gluu.org/debian/gluu-apt.key | apt-key add -
 
     Add the Postgresql-10 repo:
 
-# echo "deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main" > /etc/apt/sources.list.d/psql.list
-# wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+echo "deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main" > /etc/apt/sources.list.d/psql.list
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 
     Add the Node repo:
 
-# curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 For CentOS 6
 
     Add the Gluu repo:
 
-# wget https://repo.gluu.org/centos/Gluu-centos-testing.repo -O /etc/yum.repos.d/Gluu.repo
-# wget https://repo.gluu.org/centos/RPM-GPG-KEY-GLUU -O /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
-# rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
+wget https://repo.gluu.org/centos/Gluu-centos-testing.repo -O /etc/yum.repos.d/Gluu.repo
+wget https://repo.gluu.org/centos/RPM-GPG-KEY-GLUU -O /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
 
     Add the Postgresql-10 repo:
 
-# rpm -Uvh https://yum.postgresql.org/10/redhat/rhel-6-x86_64/pgdg-redhat10-10-2.noarch.rpm
+rpm -Uvh https://yum.postgresql.org/10/redhat/rhel-6-x86_64/pgdg-redhat10-10-2.noarch.rpm
 
     Add the Node repo:
 
@@ -94,13 +94,13 @@ For CentOS 7
 
     Add the Gluu repo:
 
-# wget https://repo.gluu.org/centos/Gluu-centos-7-testing.repo -O /etc/yum.repos.d/Gluu.repo
-# wget https://repo.gluu.org/centos/RPM-GPG-KEY-GLUU -O /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
-# rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
+wget https://repo.gluu.org/centos/Gluu-centos-7-testing.repo -O /etc/yum.repos.d/Gluu.repo
+wget https://repo.gluu.org/centos/RPM-GPG-KEY-GLUU -O /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
 
     Add the Postgresql-10 repo:
 
-# rpm -Uvh https://yum.postgresql.org/10/redhat/rhel-7-x86_64/pgdg-centos10-10-2.noarch.rpm
+rpm -Uvh https://yum.postgresql.org/10/redhat/rhel-7-x86_64/pgdg-centos10-10-2.noarch.rpm
 
     Add the Node repo:
 
@@ -110,13 +110,13 @@ For RHEL 6
 
     Add the Gluu repo:
 
-# wget https://repo.gluu.org/rhel/Gluu-rhel-testing.repo -O /etc/yum.repos.d/Gluu.repo
-# wget https://repo.gluu.org/rhel/RPM-GPG-KEY-GLUU -O /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
-# rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
+wget https://repo.gluu.org/rhel/Gluu-rhel-testing.repo -O /etc/yum.repos.d/Gluu.repo
+wget https://repo.gluu.org/rhel/RPM-GPG-KEY-GLUU -O /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
 
     Add the Postgresql-10 repo:
 
-# rpm -Uvh https://yum.postgresql.org/10/redhat/rhel-6-x86_64/pgdg-redhat10-10-2.noarch.rpm
+rpm -Uvh https://yum.postgresql.org/10/redhat/rhel-6-x86_64/pgdg-redhat10-10-2.noarch.rpm
 
     Add the Node repo:
 
@@ -126,13 +126,13 @@ For RHEL 7
 
     Add the Gluu repo:
 
-# wget https://repo.gluu.org/rhel/Gluu-rhel-7-testing.repo -O /etc/yum.repos.d/Gluu.repo
-# wget https://repo.gluu.org/rhel/RPM-GPG-KEY-GLUU -O /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
-# rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
+wget https://repo.gluu.org/rhel/Gluu-rhel-7-testing.repo -O /etc/yum.repos.d/Gluu.repo
+wget https://repo.gluu.org/rhel/RPM-GPG-KEY-GLUU -O /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU
 
     Add the Postgresql-10 repo:
 
-# rpm -Uvh https://yum.postgresql.org/10/redhat/rhel-7-x86_64/pgdg-centos10-10-2.noarch.rpm
+rpm -Uvh https://yum.postgresql.org/10/redhat/rhel-7-x86_64/pgdg-centos10-10-2.noarch.rpm
 
     Add the Node repo:
 
@@ -141,17 +141,18 @@ curl -sL https://rpm.nodesource.com/setup_8.x | sudo -E bash -
 Install the gluu-gateway package
 For Ubuntu 14, Ubuntu 16, Debian 8, Debian 9
 
- # apt update
- # apt install gluu-gateway
+apt update
+apt install gluu-gateway
 
 For CentOS 6, Centos 7, RHEL 6, RHEL 7
 
- # yum clean all
- # yum install gluu-gateway
+yum clean all
+yum install gluu-gateway
+
 Run the setup script
 
- # cd /opt/gluu-gateway/setup
- # python setup-gluu-gateway.py
+cd /opt/gluu-gateway/setup
+python setup-gluu-gateway.py
 
 You will be prompted to answer some questions. Just hit Enter to accept the default value, which is specified in square brackets.
 
