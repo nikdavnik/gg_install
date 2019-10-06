@@ -1,0 +1,99 @@
+Setting permission of /etc/profile to 644
+User ldap with homedir /home/ldap was created
+User jetty with homedir /home/jetty was created
+User node with homedir /home/node was created
+Group gluu was created
+User ldap was added to group gluu
+User jetty was added to group gluu
+User node was added to group gluu
+User ldap was added to group adm
+Setting permission of /tmp to ga+w
+Creating directory /etc/gluu/conf
+Creating directory /etc/certs
+Creating directory /install/community-edition-setup/output
+Creating directory /home/jetty/lib
+Creating directory /etc/gluu/conf/fido2
+Creating directory /etc/gluu/conf/fido2//authenticator_cert
+Creating directory /etc/gluu/conf/fido2//mds/cert
+Creating directory /etc/gluu/conf/fido2//mds/toc
+Creating directory /etc/gluu/conf/fido2//server_metadata
+Creating directory /var/gluu/photos
+Creating directory /var/gluu/identity/removed
+Creating directory /var/gluu/identity/cr-snapshots
+Making owner of /var/gluu/photos to root:gluu
+Making owner of /var/gluu/identity/removed to root:gluu
+Making owner of /var/gluu/identity/cr-snapshots to root:gluu
+Creating directory /var/run/jetty
+Setting permission of /var/run/jetty to 775
+Making group of /var/run/jetty to jetty
+Making owner of /etc/certs/httpd.key.orig to jetty:jetty
+Setting permission of /etc/certs/httpd.key.orig to 700
+Making owner of /etc/certs/httpd.key to jetty:jetty
+Setting permission of /etc/certs/httpd.key to 700
+Making owner of /etc/certs/shibIDP.key.orig to jetty:jetty
+Setting permission of /etc/certs/shibIDP.key.orig to 700
+Making owner of /etc/certs/shibIDP.key to jetty:jetty
+Setting permission of /etc/certs/shibIDP.key to 700
+Making owner of /etc/certs/idp-encryption.key.orig to jetty:jetty
+Setting permission of /etc/certs/idp-encryption.key.orig to 700
+Making owner of /etc/certs/idp-encryption.key to jetty:jetty
+Setting permission of /etc/certs/idp-encryption.key to 700
+Making owner of /etc/certs/idp-signing.key.orig to jetty:jetty
+Setting permission of /etc/certs/idp-signing.key.orig to 700
+Making owner of /etc/certs/idp-signing.key to jetty:jetty
+Setting permission of /etc/certs/idp-signing.key to 700
+Making owner of /etc/certs/passport-sp.key.orig to ldap:ldap
+Setting permission of /etc/certs/passport-sp.key.orig to 700
+Making owner of /etc/certs/passport-sp.key to ldap:ldap
+Setting permission of /etc/certs/passport-sp.key to 700
+Making owner of /etc/certs/shibIDP.pkcs12 to jetty:jetty
+Setting permission of /etc/certs/shibIDP.pkcs12 to 700
+Making owner of /etc/certs/shibIDP.jks to jetty:jetty
+Setting permission of /etc/certs/shibIDP.jks to 700
+Making owner of /etc/certs to jetty:jetty
+Setting permission of /etc/certs to 500
+Making owner of /install/community-edition-setup/output/oxauth-keys.json to jetty:jetty
+Setting permission of /install/community-edition-setup/output/oxauth-keys.json to 600
+Setting permission of /etc/hosts to 644
+File /etc/security/limits.conf was backed up as /etc/security/limits.conf.gluu-4.0~
+Making owner of /home/ldap/.pw to ldap:ldap
+Making owner of /etc/certs to root:gluu
+Making owner of /etc/gluu/conf to root:gluu
+Making owner of /var/gluu to root:gluu
+Setting permission of /etc/certs to 440
+Setting permission of /etc/certs to a+X
+Making owner of /etc/certs/gluu-radius.jks to radius:gluu
+Making owner of /etc/certs/gluu-radius.private-key.pem to radius:gluu
+Making owner of /etc/certs/oxauth-keys.jks to jetty:jetty
+Setting permission of /etc/certs/oxauth-keys.jks to 660
+File /etc/httpd/conf/httpd.conf was backed up as /etc/httpd/conf/httpd.conf.gluu-4.0~
+Making owner of /etc/default/oxauth to root:root
+Making owner of /usr/lib/tmpfiles.d/jetty.conf to root:root
+Setting permission of /usr/lib/tmpfiles.d/jetty.conf to 644
+Making owner of /etc/default/identity to root:root
+File /usr/lib/tmpfiles.d/jetty.conf was backed up as /usr/lib/tmpfiles.d/jetty.conf.gluu-4.0~
+Making owner of /usr/lib/tmpfiles.d/jetty.conf to root:root
+Setting permission of /usr/lib/tmpfiles.d/jetty.conf to 644
+Making owner of /etc/default/idp to root:root
+Making owner of /usr/lib/tmpfiles.d/jetty.conf to root:root
+Setting permission of /usr/lib/tmpfiles.d/jetty.conf to 644
+Making owner of /etc/default/oxauth-rp to root:root
+Making owner of /usr/lib/tmpfiles.d/jetty.conf to root:root
+Setting permission of /usr/lib/tmpfiles.d/jetty.conf to 644
+Making owner of /etc/default/passport to root:root
+User radius with homedir /opt/gluu/radius was created
+User radius was added to group gluu
+Setting permission of /etc/init.d/gluu-radius to +x
+Making owner of /etc/gluu/conf/radius/ to root:gluu
+Making owner of /etc/certs to root:gluu
+Making owner of /etc/gluu/conf to root:gluu
+Making owner of /var/gluu to root:gluu
+Setting permission of /etc/certs to 440
+Setting permission of /etc/certs to a+X
+Making owner of /etc/certs/gluu-radius.jks to radius:gluu
+Making owner of /etc/certs/gluu-radius.private-key.pem to radius:gluu
+Making owner of /etc/certs/oxauth-keys.jks to jetty:jetty
+Setting permission of /etc/certs/oxauth-keys.jks to 660
+Setting permission of /etc/hosts to 644
+Setting permission of /etc/certs/gluu-radius.jks to 660
+Setting permission of /etc/certs/gluu-radius.private-key.pem to 660
